@@ -1,22 +1,34 @@
 # WeatherAUS Rainfall Prediction Project
 
-**Tools:** R (tidyverse, GGally, caret, rpart, rpart.plot, knitr, formatR)  
-**Dataset:** Kaggle – Australian Weather Dataset (`weatherAUS.csv`)
+**Language:** R  
+**Libraries:** `tidyverse`, `GGally`, `caret`, `rpart`, `rpart.plot`, `knitr`, `formatR`  
+**Dataset:** Australian Weather Dataset (Kaggle) — daily weather observations (Nov 2007–Jun 2017)  
 
 ---
 
-## Project Description
+## Objective
 
-- Analyzed daily weather observations across Australia from **Nov 2007 – Jun 2017**.
-- Dataset includes **temperature, rainfall, wind, pressure, and humidity**.
-- **Objective:** Explore how well we can predict:
+- Explore how well we can predict:
   1. **Amount of rainfall** on a given day
   2. **Whether it will rain tomorrow**
-- **Targets:**
-  - `Rainfall` (numeric)
-  - `RainTomorrow` (binary, Yes = 1, No = 0)
-- **Predictors:** Humidity9am, RainToday, WindDir9am, MaxTemp, Location, Pressure9am, Sunshine, Evaporation, and more
-- **Exploratory Tool:** GGpairs plots to view variable relationships; Pressure9am and Humidity9am most correlated with Rainfall
+
+---
+
+## Data Description
+
+- Covers daily weather observations across Australia  
+- Variables include **temperature, rainfall, wind, pressure, humidity**, and more  
+- **Targets:**  
+  - `Rainfall` (numeric)  
+  - `RainTomorrow` (binary, Yes = 1, No = 0)  
+- **Predictors:** Humidity9am, RainToday, WindDir9am, MaxTemp, Location, Pressure9am, Sunshine, Evaporation, etc.  
+- Data provides rich context to explore weather patterns and predict rainfall  
+
+**Data cleaning and preparation steps:**
+1. Removed missing values (`NA`)
+2. Converted `RainToday` and `RainTomorrow` from “Yes/No” to binary (1/0)
+3. Standardized numeric variables for modeling
+4. Stratified training and test sets for classification tasks
 
 ---
 
