@@ -3,6 +3,7 @@
 **Language:** R  
 **Libraries:** `tidyverse`, `GGally`, `caret`, `rpart`, `rpart.plot`, `knitr`, `formatR`  
 **Dataset:** Australian Weather Dataset (Kaggle) — daily weather observations (Nov 2007–Jun 2017)  
+**Group Project:** Completed as part of a collaborative team effort.
 
 ---
 
