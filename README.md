@@ -99,14 +99,3 @@
   - Provides clear rules for rain vs. no rain
   - Slightly lower accuracy than KNN but easy to interpret
 
----
-
-## Tools and Methods Used
-
-- **R** for data cleaning, visualization, and modeling
-- Modeling approaches:
-  - Simple & Multiple Linear Regression
-  - Regression Tree
-  - K-Nearest Neighbors
-- **Visualization:** GGally for correlation plots, regression and tree diagrams
-
