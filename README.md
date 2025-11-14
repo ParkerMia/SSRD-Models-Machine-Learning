@@ -110,7 +110,3 @@
   - K-Nearest Neighbors
 - **Visualization:** GGally for correlation plots, regression and tree diagrams
 
----
-
-**Author:** Mia Parker   
-**Language:** R
