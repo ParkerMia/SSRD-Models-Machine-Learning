@@ -40,7 +40,8 @@
   - High humidity → higher rainfall
   - Pressure9am trends align with rainfall patterns
 
-*Visuals: GGpairs plots showing Humidity9am, Pressure9am, Rainfall, etc.*
+**Visuals:**
+- GGpairs plots showing Humidity9am, Pressure9am, Rainfall, etc.
 
 ---
 
@@ -60,7 +61,9 @@
 - **RMSE Comparison:**
   - Log-linear regression had lowest RMSE → best predictive accuracy
 
-*Visuals: Scatterplots of regression models, Regression Tree diagram*
+**Visuals:** 
+- Scatterplots of regression models,
+- Regression Tree diagram
 
 ---
 
@@ -82,7 +85,9 @@
   - Model selected key predictors: Sunshine, Pressure, Rainfall today
   - Slightly lower accuracy than KNN but interpretable
 
-*Visuals: Confusion matrix for KNN, Pruned classification tree diagram*
+**Visuals:**
+- Confusion matrix for KNN,
+- Pruned classification tree diagram
 
 ---
 
